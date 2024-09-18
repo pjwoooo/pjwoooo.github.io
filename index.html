@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>Happy 19!</title>
+        <link rel="icon" type="image/x-icon" href="icon19.png">
+        <style>
+            body, html {
+              height: 100%;
+              margin: 0;
+              background-image: url("gill.png");
+            
+              /* Center and scale the image nicely */
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              overflow-y: hidden;
+            }
+
+            .audio{
+                display: flex;
+                min-height: 180vh;
+                justify-content: center;
+                align-items: center;
+            }
+
+            audio::-webkit-media-controls-play-button,
+            audio::-webkit-media-controls-panel {
+            background-color: #385c4d;
+            color: green;
+            }
+            </style>
+    </head>
+    <body>
+        <div class="audio">
+            <audio controls>
+                <source src="iris niki.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </body>
+</html>
